@@ -1,7 +1,9 @@
 
 public class forloops {
 
-	
+public static void main(String[] args) {
+showGeniusOne();
+}	
 		public static void showGeniusOne() 
 		{
 		int n=5;
