@@ -4,11 +4,13 @@ public class forloops {
 	
 		public static void showGeniusOne() 
 		{
-		
-		   for (int n=5; n<=100; n=n+5 ){
-			System.out.print(n);
+		int n=5;
+		   for (int a=5; a%5==0 && a<=100; a=a+5 ){
+			
 			
 		}
+		   System.out.print(n);
+		   
 
 	}
 
