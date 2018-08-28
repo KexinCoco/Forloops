@@ -1,17 +1,18 @@
 
 public class forloops {
 
-public static void main(String[] args) {
-showGeniusOne();
-}	
+	public static void main(String[] args){
+		showGeniusOne();
+	}	
 		public static void showGeniusOne() 
 		{
-		int a=5;
-		   for (int n=5; a%5==0 && a<=100; a=a+5 ){
-			
+		
+		int sum=0;
+		   for (int n=5; n<=100; n+=5 ){
+			sum+=n;
 			
 		}
-		   System.out.print(a);
+		   System.out.print(sum);
 		   
 
 	}
